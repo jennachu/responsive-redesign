@@ -9,8 +9,8 @@
     <!-- import CSS styles -->
     <link rel="stylesheet" href="styles.css" /> 
 
-</head>
 
+</head>
 
   <body>
     <div class="container">
@@ -18,72 +18,227 @@
 
         <h1 class="heading"> Responsive Redesign</h1>
         <h4> <em>
-          Step into a user's shoes. Understand an individual's experience with an interface.
+          Practice the workflow of redesigning a simple website. Identify design flaws of an existing website, and recreate a more effective, responsive website design. 
         </em> </h4>
         <p>
-          In this project, I will be choosing a public user interface to observe. I will observe and interview 3 users before creating two personas
-          and a storyboard to better understand those users and their interactions with the interface. 
+          The layout of a website is critical for effectively conveying information to a user. 
+          In this project, I will analyze and redesign the web page for Russell Orchards, a popular farm and apple orchard in Massachusetts. 
+          Their website details sufficient information about the orchard, but the website has many usability problems and can more effectively convey information in a different format. 
+          My redesign will focus on simplicity and enhancing usability. 
+          <br>
+
+          <br>
+          I chose to redesign the website for Russel Orchards because I found the website difficult to interact with when I tried to plan a trip to the farm; it took me too long to find information about pricing and time for apple picking. 
+          An image of the website is shown below.
+
         </p>
-
-
-        <h2>Interface</h2>
+        <div class="interface">
+          <img class="gallery-item" src="./assets/website.png" alt="Russell Orchard's Website" width="800">
+        </div>
         <p>
-          I chose to observe people's interactions with the printer in Barus and Holley. There are two printers within the same vicinity, 
-          and it is not immediately clear which printer prints in color and which in black and white. There is a simple interface to use the printers, 
-          but there are not detailed instructions for potentially new users. 
+         <br>
+          Russel Orchard's original website can be found <a href="https://www.russellorchards.com/index.php">here</a>
+          <br>
         </p>
+
+        <br>
+        <br>
+
+        <h2>Finding Problems</h2>
+        <h3>
+            Usability
+        </h3>
+        <p><i>How easy and pleasant the features are to use</i></p>
+        <ul>
+          <li>
+            The logo for the website disappears when the user scrolls down. When the user returns to the tab, it is not immediately clear which website they are viewing.
+          </li>
+          <li>
+            The menu selection is on the side, which isn’t very intuitive. 
+          </li>
+          <li>
+            There is too much text all at once. The entire webpage is displayed to the user at all once, and there is no interactive scrolling. There is no section of text that summarizes the goal of the website. 
+          </li>
+          <li>The background is very distracting and makes it difficult to read text.
+             </li>
+        </ul>
+
+
+        <h3>
+            Memorability
+        </h3>
+        <p><i>When users return to the design, how long will it take for them to establish proficiency? </i></p>
+        <ul>
+          <li>
+            Many of the categories on the menu bar can be grouped together. Having too many is overwhelming for the user. 
+          </li>
+          <li>
+            In the top right corner, under “Pick Your Own”, a portion of the website is in a different highlight and text color, falsely indicating there may be a hyperlink or interactive portion
+          </li>
+          <li>
+            Social media is presented at the top right corner, as well as the bottom left corner. 
+          </li>
+          <li>
+            There is repetitive information: 
+              <ul>
+                <li>The types of available apple are described twice on the page</li>
+                <li>Hours for the farm are listed three times across the website. 
+                </li>
+              </ul>
+          </li>
+        </ul>
+
+        <h3>
+          Learnability
+        </h3>
+        <p><i>How easy is it for users to accomplish tasks the first time they encounter the task? </i></p>
+        <ul>
+          <li>
+            There are blank squares at the bottom right corner, which may confuse the user
+          </li>
+          <li>
+            Under “In the Store Now”, the phrase “zero food miles” is vague. A user may not know what that is. 
+          </li>
+          <li>
+            Font sizes, color, and text style (ex. Bold or italics) are not consistent with any theme. 
+          </li>
+        </ul>
+
+        <h3>
+          Accessibility
+        </h3>
+        <p><i>Can people with disabilities use the website and its tools? </i></p>
+        <ul>
+          <li>
+            The logo is missing alt text. 
+          </li>
+          <li>
+            Under “Pick Your Own”, the green text on a purple background has low contrast, making the text hard to read. 
+          </li>
+          <li>
+            There are inaccessible links. The blog leads to a page with “forbidden access”. At the time when I started the assignment, the links under the “Recipes” section were also inaccessible, but the issue has since been fixed. 
+          </li>
+          <li>
+            There is an inaccessible event handler. The time on the top left corner of the website is only accurate when the page is launched. It is not updated consistently and can be misleading to the user. 
+          </li>
+        </ul>
+
+        <!--
 
         <div class="interface">
           <img class="gallery-item" src="./assets/interface.png" alt="Interface for using the printer. Most frequently used buttons are the card swipe, the mouse, and the print button on the monitor." width="800">
         </div>
+-->
+<br>
+<br>
 
+        <h2>Visual Redesign</h2>
         <p>
-          As seen in the image above, the interface is relatively simple to use. A user will swipe their card to log into their account, and use the mouse to 
-          click one button to release a print queue. I am not observing the computer interface to upload a document, only the printer interface to release a document from the queue. 
-        </p>
-
-        <h2>Observations</h2>
-        <p>
-          After observing three users, I noticed the following: 
+          After identifying issues with the website, I will redesign the home page to address these issues. Throughout the redesign process, there are two points that I kept at the forefront of my mind: 
         </p>
         <ul>
           <li>
-            Person A swiped their ID, and nothing was released from the printer. They opened and used their laptop for around 3 minutes before swiping their ID a second time and receiving a print. 
+            I assumed that the goal of this website is to draw as many customers to the farm as possible. This point is critical to many of the features that I changed on the website. 
           </li>
           <li>
-            Person A spent around 5 minutes fiddling with buttons on the printer before they realized they had to swipe their ID to release a print job. Persons B and C immediately swiped their ID cards upon approaching the printer. 
-          </li>
-          <li>
-            Person B picked up their printed document, and looked confused and dissatisfied.
-          </li>
-          <li>Person B only printed one page, while Persons A and C received multiple pages from the printer. However, Person A individually clicked the “print” button next to each document, while Person C used the “print all” button at the bottom of the screen. </li>
-          <li>
-            None of the users touched the keyboard. Person A used the "logout" button, while Persons B and C left the vacinity before the computer automatically logged out of their accounts.
+            I tried to maintain as much content from the original website as possible. There are some items (ex. Blog and recipes) that I personally did not find critical, but I assumed the owners of the orchard are passionate about these points and would like for them to remain present on the website. 
           </li>
         </ul>
 
         <p>
-          I then interviewed with each of the three users to understand their experience with the interface and obtained the following responses: 
+          First, I created three wireframes using Balsamiq to address the issues I found.
         </p>
+
+        <div class="interface">
+          <img class="gallery-item" src="./assets/lofi-website.jpg" alt="Lofi Prototype of website" width="800">
+        </div>
+        <div class="interface">
+          <img class="gallery-item" src="./assets/lofi-smaller.png" alt="Lofi Prototype of tablet and mobile" width="800">
+        </div>
+
+
+
         <ol>
-          <li> <b> What are you trying to print? Is this a necessary item? </b> </li>
-          Two people were printing necessary items- a mandatory reading and resume for the career fair, while one person was printing a decorative piece for their room. 
-          <li> <b>How frequently do you use this printer? </b> </li>
-          Person C uses the printer around once a week, while persons A and B have experience with printing at Brown, but have never used the printer I was observing. 
-          <li> <b> What would you have done if the printer did not work? </b> </li>
-          Both people who were printing mandatory documents noted they would find a printer in a different building, while Person C noted they would have returned home empty handed. 
-          <li> <b> Are you in a rush? </b> </li>
-          Both students printing mandatory documents were in a rush to immediately use/hand in their printed documents. Finding a printer in a different building would have caused a time delay for both users. 
-          <li> <b> How effective was the printer in fulfilling your goals? </b> </li>
-          Person B’s goal was not fulfilled because they wanted their document printed in color. Person C noted the resolution of their document is not as clear as that of a color printer.
+          <li>The logo and menu bar should be pinned to the top of the page to provide users convenient access throughout their experience.</li>
+          <li>
+            The menu bar has been moved to the top of the page because I found it to be more intuitive. I grouped the following categories together to streamline selections for the user:
+            <ul>
+              <li>“Store” now includes the Bakery and the shop. </li>
+              <li>“Events” now includes Winery, School Tours, Farm Animals, and Calendar
+              </li>
+              <li>“Contact” now includes Employment and Contact.</li>
+            </ul>
+          </li>
+          On a tablet and mobile screen, the menu bar should condense into a hamburger menu so that the text does not overlap. This makes the website responsive.
+
+          <li>I removed the background image and plan to include a dynamic slideshow of images from the farm. This enables the user to see image without hindering readability of text. </li>
+          <li>I added a slogan to catch the eye of the user. This draws the user into this section of the website, which should provide a brief description about the farm. If the user only reads one portion of the website, it should be this block of text. 
+          </li>
+          <li>I included a dynamic button. The goal of the website is to draw as many users to the farm as possible, and this button should be the item that pops out most to the user.</li>
+          <li>Short description with hyperlinks of events/features that make this apple orchard unique from others. </li>
+          <li>I designated a larger portion of the website for the location. The location should be made evident to the users in order to draw them to the farm. The hours for the farm are all listed in one place.</li>
+          <li>Social media is blocked together in one portion of the website. </li>
         </ol>
 
+        <br>
+        <br>
 
-        <h2>Personas</h2>
         <p>
-          To create a realistic representation of the individuals I observed and interviewed, I created two personas using four-quadrant empathy maps. 
-          The empathy maps help provide a visual for what the users think, feel, say, and do. 
+          I then used Figma to create high-fidelity prototypes of what the website will look like, taking into account responsiveness of the website.
         </p>
+
+        <div class="interface">
+          <img class="gallery-item" src="./assets/hifi-web.png" alt="Hifi prototype of website" width="800">
+        </div>
+
+        <div class="interface">
+          <img class="gallery-item" src="./assets/hifi-smaller.png" alt="Hifi prototype of mobile and website" width="800">
+        </div>
+
+        <br>
+        <br>
+        
+        <p>
+          I also created a visual design style guide to document specific details about the website. The guide documents interactive elements I have on my website, specifically with the buttons along the menu bar.
+        </p>
+
+        <div class="interface">
+          <img class="gallery-item" src="./assets/style-guide.png" alt="Visual style guide" width="800">
+        </div>
+
+
+
+        <h2>Responsive Redesign</h2>
+        <p>
+          Finally, I created a website using HTML, CSS, and Bootstrap to demonstrate my high fidelity prototype. Given that that is my first project with HTML, there are a few issues that should be noted: 
+        </p>
+        <ul>
+          <li>
+            The menu bar has a margin that is not intended to be there. The margin is not present in Figma prototypes, but due to the Bootstrap template I am using, I was unable to remove it. 
+          </li>
+          <li>
+            I used Bootstrap to create interactive buttons. Because there are limitations with Bootstrap, I was unable to provide all the buttons with the same intended design as provided in the visual design guide. Hypothetically, the website should stick with the color and theme as indicated in the visual design guide. 
+          </li>
+        </ul>
+        <p>
+          My final website design can be found <a href="https://sleepyotter123.github.io/russel-orchards/">here</a>
+        </p>
+
+        <br>
+        <br>
+
+
+        <h2>Conclusion</h2>
+        <p>
+          The design of a website is critical to its effectiveness in conveying information to the user. Every website has a different goal (ex. Selling a product, providing information about an event, etc.) The goal of Russell Orchard’s website is to draw users to the farm by providing information about the opening hours, occurring events, as well as access to the farm. 
+          <br>
+          <br>
+          This assignment has taught me the principles of design, as well as technical skills in HTML, CSS, and Bootstrap. 
+        </p>
+
+
+<!--
+
         <div class="pamela">
           <div class="pamela-image">
             <img class="gallery-item" src="./assets/pamela.png" alt="Empathy Map for Procrastinating Pamela. Pamela tends to leave assignments to the last minute, and is always in a rush." height="550">
@@ -146,6 +301,8 @@
 
 
     </div>
+
+    -->
   </body>
 </html>
 
